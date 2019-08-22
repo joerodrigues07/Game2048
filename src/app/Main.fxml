@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parent" prefHeight="628.0" prefWidth="442.0" styleClass="main-pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MainController">
+    <children>
+        <Label fx:id="titleBest" alignment="CENTER" contentDisplay="CENTER" layoutX="313.0" layoutY="43.0" prefHeight="29.0" prefWidth="112.0" styleClass="info-points-top" stylesheets="@style.css" text="BEST" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri Bold" size="64.0" />
+            </font>
+        </Label>
+        
+        <Label fx:id="best" alignment="CENTER" contentDisplay="CENTER" layoutX="313.0" layoutY="72.0" prefHeight="49.0" prefWidth="112.0" styleClass="info-points-bottom" stylesheets="@style.css" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri Bold" size="64.0" />
+            </font>
+        </Label>
+        <Pane layoutX="14.0" layoutY="203.0" prefHeight="410.0" prefWidth="410.0" styleClass="grid-main-pane" stylesheets="@style.css" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="203.0">
+            <children>
+                <Label fx:id="cell00" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell01" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="10.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell02" alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="10.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell03" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="10.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell10" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell11" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="110.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell12" alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="110.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell13" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="110.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell20" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="210.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell21" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="210.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell22" alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="210.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell23" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="210.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell30" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="310.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell31" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="310.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell32" alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="310.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cell33" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="310.0" prefHeight="90.0" prefWidth="90.0" styleClass="cell-empty" stylesheets="@style.css" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri Bold" size="64.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+      <TextField layoutX="358.0" layoutY="125.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </TextField>
+      <Label layoutX="356.0" layoutY="121.0" styleClass="main-label" stylesheets="@style.css" text="                 " />
+      <Label fx:id="btnNew" alignment="CENTER" contentDisplay="CENTER" layoutX="313.0" layoutY="153.0" prefHeight="40.0" prefWidth="112.0" styleClass="btn" stylesheets="@style.css" text="New" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="btnUndo" alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="153.0" prefHeight="40.0" prefWidth="112.0" styleClass="btn" stylesheets="@style.css" text="Undo" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="score1" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="17.0" prefHeight="104.0" prefWidth="136.0" styleClass="cell-2048" stylesheets="@style.css" text="2048" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="btnFechar" layoutX="415.0" layoutY="8.0" prefHeight="20.0" prefWidth="7.0" text="x" textFill="#7f6b5a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="titleScore" alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="43.0" prefHeight="29.0" prefWidth="112.0" styleClass="info-points-top" stylesheets="@style.css" text="SCORE" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="72.0" prefHeight="49.0" prefWidth="112.0" styleClass="info-points-bottom" stylesheets="@style.css" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+      </Label>
+     
+    </children>
+</AnchorPane>

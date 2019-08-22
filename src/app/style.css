@@ -1,0 +1,252 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/08/2019, 12:21:22
+    Author     : João Soares
+*/
+.main-pane{
+    -fx-background-color: #FBF8EF;
+    -fx-border-width: 2px;
+    -fx-border-color: #ccc0b4;
+}
+
+.main-label{
+    -fx-background-color: #fbf8f0;
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.grid-main-pane{
+    -fx-background-color: #BBADA0;    
+    -fx-text-fill: #fdfcfc;
+    -fx-font: bold 24px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.info-points-top{
+    -fx-background-color: #BBADA0;    
+    -fx-text-fill: #fdfcfc;
+    -fx-font: bold 24px "Calibri";
+    -fx-border-radius: 5 5 0 0; 
+    -fx-background-radius: 5 5 0 0; 
+}
+
+.info-points-bottom{
+    -fx-background-color: #BBADA0;    
+    -fx-text-fill: #fdfcfc;
+    -fx-font: bold 24px "Calibri";
+    -fx-border-radius: 0 0 5 5; 
+    -fx-background-radius:  0 0 5 5;
+}
+
+.cell-empty{
+    -fx-background-color: #CDC1B3;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-2{
+    -fx-background-color: #EEE4DA;
+    -fx-text-fill: #776E65;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-4{
+    -fx-background-color: #ECE0C8;
+    -fx-text-fill: #776E65;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-8{
+    -fx-background-color: #F2B179;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-16{
+    -fx-background-color: #F59563;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-32{
+    -fx-background-color: #F57C5F;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-64{
+    -fx-background-color: #F65D3B;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 64px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-128{
+    -fx-background-color: #EDCE71;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 48px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-256{
+    -fx-background-color: #ECCB60;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 48px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-512{
+    -fx-background-color: #ECC850;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 48px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-1024{
+    -fx-background-color: #EDC53F;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 36px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-2048{
+    -fx-background-color: #EEC22E;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 36px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-4096{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 36px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-8192{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 36px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-16384{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 30px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-32768{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 30px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-65536{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 30px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-131072{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 24px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-262184{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 24px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-524288{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 24px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-1048576{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 20px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-2097152{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 20px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-4194304{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 20px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.cell-8388608{
+    -fx-background-color: #3D3A33;
+    -fx-text-fill: #F6F7F1;
+    -fx-font: bold 20px "Calibri";
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.btn{
+    -fx-background-color: #8F7A65;    
+    -fx-text-fill: #fdfcfc;
+    -fx-font: bold 24px "Calibri";    
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+}
+
+.btn:hover{
+    -fx-background-color:  #ae7a65;    
+}
+
+.btn-close{
+    -fx-background-color: #573e2a;
+    -fx-text-fill: white;
+}
